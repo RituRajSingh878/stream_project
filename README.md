@@ -11,10 +11,9 @@ After that, we have stored the feature in a feature folder and use it as trainin
 ## Process to reproduced the result again.
 1- open the project folder in octave/matlab.
 
-2- Run the extr_sift.m script in octave/matlab to apply SIFT descriptor, which will be stored in data folder.
-  so we have data with SIFT descriptor.
+2- Run the extr_sift.m script in octave/matlab to apply SIFT descriptor, which will be stored the processed data in data folder.Now, we have SIFT descriptor processed data.
   
-3- Now we have LLC_test.ipynb, We have to open it into Jupyter Notebook to run this code.
+3- we have LLC_test.ipynb, We have to open it into Jupyter Notebook to run this code.
    After opening the file, we need to run every cell of notebook. After running the last cell, we can see that training      started and we have to wait till training and we can see the result.
   
   
