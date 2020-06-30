@@ -8,12 +8,14 @@ Firstly, I obtain graphic information by translating each feature point on an im
 
 After that, we have stored the feature in a feature folder and use it as training data. For training, I have used kmeans cluster with svm. By doing this, I have reached the good accuracy. 
 
-## Process to reproduced the result again.
-1- open the project folder in octave/matlab.
+## Process to reproduced the result locally.
+1- clone the project locally
 
-2- Run the extr_sift.m script in octave/matlab to apply SIFT descriptor, which will be stored the processed data in data folder.Now, we have SIFT descriptor processed data.
+2- open the cloned project folder in octave/matlab.
+
+3- Run the extr_sift.m script in octave/matlab to apply SIFT descriptor, which will be stored the processed data in data folder.Now, we have SIFT descriptor processed data.
   
-3- we have LLC_test.ipynb, We have to open it into Jupyter Notebook to run this code.
+4- we have LLC_test.ipynb, We have to open it into Jupyter Notebook to run this code.
    After opening the file, we need to run every cell of notebook. After running the last cell, we can see that training      started and we have to wait till training and we can see the result.
   
   
